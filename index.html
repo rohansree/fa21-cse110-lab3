@@ -20,26 +20,96 @@
             <h1>Meeting to Set House Rules</h1>
             <img src="/images/writing.png">
 
-            <h2>Laundry</h2>
+            <h2 id="Laundry">Laundry</h2>
             <ol type = "1">
                 <li><b>The washer takes forever</b></li>
                 <li><strong>Agree to reserve times on the washer!</strong></li>
                 <li><i>The dryer also takes a long time!</i></li>
                 <li><em>Agree to move clothes from washer to dryer quickly!</em></li>
-            </ol>
+            </ol><br>
+            <hr>
 
-            <h3>Guests</h3>
+            <h3 id="Guests">Guests</h3>
             <p>It is okay to have guests over<br>
             as long as others are okay with it</p>
-            <hr>
             <p><span style="color:red">Respect your housemates!</span></p>
-            <h4>Games</h4>
-            <video src = "iamges/stock.mp4"></video>
+            <hr>
+            
+            <h4  id="Games">Games</h4>
+            <p>Agree to play games together</p>
+            <video controls src = "images/stock.mp4"></video><br>
 
             <section>
                 <h5>Audio File About Games: The game is over.</h5>
-                <audio controls src = "images/gameover.wav"></audio>
+                <audio controls src = "images/gameover.wav"></audio><br>
             </section>
         </main>
+
+        <footer>
+            <br><details>
+                <summary>This was a document on my house meeting minutes!</summary>
+                Appreciate you reading this.
+            </details><br>
+
+            <hr>
+
+            <form id="1">
+                <label for=name:>Full Name:</label><br>
+                <input type = "text" id = "name" name="name"><br>
+                <p>Best Beach?</p>
+                <input type = "radio" id = "cove" name="cove" value = "La Jolla Cove">
+                <label for="cove">La Jolla Cove:</label><br>
+                <input type = "radio" id = "blacks" name="blacks" value = "Black's Beach">
+                <label for="blacks">Black's Beach: </label><br><br>
+            </form>
+
+            <form id="2">
+                <br><fieldset>
+                    <legend>Dining</legend>
+                    <input type ="checkbox" id ="CafeV" name = "CafeV">
+                    <label for = "CafeV">Cafe V</label>
+                    
+                    <input type ="checkbox" id ="Pines" name = "Pines">
+                    <label for = "Pines">Pines</label>
+
+
+                </fieldset><br>
+            </form>
+
+
+            <form id="3">
+                <br><label for="start">Start date:</label><br>
+                <input type="date" id="start" name="start" value="2021-06-10">
+            </form>
+
+            <form id="4">
+                <br><label for="phone">Choose a phone:</label>
+                <input list="phones" id="phone" name="phones"/>
+                <datalist id="phones">
+                    <option value="iPhone">
+                    <option value="Pixel">
+                    <option value="Moto">
+                    <option value="Samsung">
+                </datalist>
+
+                <br><br><button type="button">Click for nothing!</button><br>
+            </form>
+
+            <form id="5">
+                <br> <label for="trucks">Choose a truck:</label>
+                <select id="trucks">
+                    <option value="Ford">Ford</option>
+                    <option value="Ram">Ram</option>
+                    <option value="Chevy">Chevy</option>
+                </select>
+            </form>
+
+            <form id="6">
+                <br><label for="review">Review of Site:</label><br>
+                <textarea id="review" name="review" rows="4" cols="50">This site is great!</textarea>
+            </form>
+
+        </footer>
+
     </body>
 </html>
