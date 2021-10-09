@@ -2,6 +2,11 @@
 
 body {
     background-color: lightblue;
+    color: black;
+    text-decoration: overline red;
+    text-align: left;
+
+
   }
 
   h1{
@@ -13,10 +18,13 @@ body {
   h2{
     color: #090;
     padding: 1em 3px 30px 5px;
+    display: block;
   }
 
   h3{
     color: rgb(34 12 64 / 0.6);
+    display: inline;
+    
   }
 
   h4{
@@ -29,6 +37,9 @@ body {
 
   .LaundryList{
     width: 2cm;
+    height: 3 cm;
+    max-width: 4 cm;
+    min-width: 1cm;
   }
   .px {
     width: 100px;
@@ -36,10 +47,14 @@ body {
 
   .mm {
     width: 100mm;
+    display: inline;
+
   }
 
   .em {
     width: 10em;
+    
+
   }
 
   .vw {
