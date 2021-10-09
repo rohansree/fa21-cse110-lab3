@@ -6,6 +6,9 @@ header{
     row-gap: 1em;
     grid-template-rows: 80px auto 80px;
 }
+a[href="google.com"]  {
+    color: green;
+  }
 
 body {
     background-color: lightblue;
@@ -13,9 +16,10 @@ body {
     text-decoration: overline red;
     text-align: left;
     @media (max-width: 12450px);
-    font-family: 'Roboto', sans-serif;
+    
+}
 
-  }
+
 
   footer{
       display:flex;
@@ -25,7 +29,10 @@ body {
       flex-basis: auto;
   }
 
-
+/* Selects all elements */
+* {
+    font-family: 'Roboto', sans-serif;
+  }
 
   button:hover {
     color: blue;
@@ -63,7 +70,7 @@ body {
     padding-left: 1em;
   }
 
-  .LaundryList{
+  #LaundryList{
     width: 2cm;
     height: 3 cm;
     max-width: 4 cm;
@@ -125,26 +132,28 @@ body {
 }
      
 
-  p, 
-ul {
+  p, ul {
   border: 2px solid rebeccapurple;
   padding: .5em;
 }
 
-.block,
-li {
+.block, li {
   border: 2px solid blue;
   padding: .5em;
 }
 
-ul {
-  display: flex;
-  list-style: none;
-}
 
 .block {
   display: block;
 }    
+
+li li {
+    list-style-type: circle;
+  }
+
+  ul.headerlist>li{
+      background-color: lightblue;
+  }
 
     
 /* This is a comment to make my CSS easier to understand */
