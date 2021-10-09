@@ -12,7 +12,8 @@ body {
     color: black;
     text-decoration: overline red;
     text-align: left;
-
+    @media (max-width: 12450px);
+    font-family: 'Roboto', sans-serif;
 
   }
 
