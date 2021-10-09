@@ -1,5 +1,12 @@
 /* This is a comment to make my CSS easier to understand */
 
+header{
+    display: grid;
+    column-gap: 1em;
+    row-gap: 1em;
+    grid-template-rows: 80px auto 80px;
+}
+
 body {
     background-color: lightblue;
     color: black;
@@ -8,6 +15,16 @@ body {
 
 
   }
+
+  footer{
+      display:flex;
+      flex-direction: row;
+      flex-flow: row wrap;
+      /*flex-direction: row-reverse;*/
+      flex-basis: auto;
+  }
+
+
 
   button:hover {
     color: blue;
