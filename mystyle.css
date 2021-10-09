@@ -12,6 +12,7 @@ body {
 
   h2{
     color: #090;
+    padding: 1em 3px 30px 5px;
   }
 
   h3{
@@ -20,6 +21,10 @@ body {
 
   h4{
     color: hsl(30, 100%, 50%, 0.6);
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
   }
 
   .LaundryList{
@@ -45,6 +50,58 @@ body {
     width: 10lh;
   }
 
+.box {
+    margin-top: -40px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+   
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 1cm;
+}
+
+.padding {
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+}
+
+.ipadding{
+    padding: 1em 3px 30px 5px;
+}
+
+.ibox {
+    margin: 30 30 30 30;
+}
+
+.abox {
+    margin: auto;
+}
+     
+
+  p, 
+ul {
+  border: 2px solid rebeccapurple;
+  padding: .5em;
+}
+
+.block,
+li {
+  border: 2px solid blue;
+  padding: .5em;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+.block {
+  display: block;
+}    
 
     
 /* This is a comment to make my CSS easier to understand */
