@@ -1,11 +1,13 @@
 /* This is a comment to make my CSS easier to understand */
 
 body {
-    background-color: lightgreen;
+    background-color: lightblue;
   }
 
   h1{
     color: orange;
+    /*background-color: lightblue;*/
+
   }
 
   h2{
@@ -19,4 +21,30 @@ body {
   h4{
     color: hsl(30, 100%, 50%, 0.6);
   }
+
+  .LaundryList{
+    width: 2cm;
+  }
+  .px {
+    width: 100px;
+  }
+
+  .mm {
+    width: 100mm;
+  }
+
+  .em {
+    width: 10em;
+  }
+
+  .vw {
+    width: 10vw;
+  }
+
+  .lh {
+    width: 10lh;
+  }
+
+
+    
 /* This is a comment to make my CSS easier to understand */
