@@ -9,9 +9,18 @@ body {
 
   }
 
+  button:hover {
+    color: blue;
+  }
+
+  button:active {
+    color: red;
+  }
+
   h1{
     color: orange;
     /*background-color: lightblue;*/
+    position: static;
 
   }
 
@@ -24,6 +33,7 @@ body {
   h3{
     color: rgb(34 12 64 / 0.6);
     display: inline;
+    position: relative;
     
   }
 
